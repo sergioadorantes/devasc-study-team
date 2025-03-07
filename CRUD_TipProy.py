@@ -100,12 +100,12 @@ def eliminar_tipo_proyecto():
 def menu():
     while True:
         print("\n MENÚ CRUD - Tipos de Proyecto")
-        print("1️⃣ Crear tipo de proyecto")
-        print("2️⃣ Ver todos los tipos de proyecto")
-        print("3️⃣ Buscar un tipo de proyecto")
-        print("4️⃣ Actualizar un tipo de proyecto")
-        print("5️⃣ Eliminar un tipo de proyecto")
-        print("0️⃣ Salir")
+        print("1️. Crear tipo de proyecto")
+        print("2️. Ver todos los tipos de proyecto")
+        print("3️. Buscar un tipo de proyecto")
+        print("4️. Actualizar un tipo de proyecto")
+        print("5️. Eliminar un tipo de proyecto")
+        print("0️. Salir")
 
         opcion = input("Selecciona una opción: ").strip()
 
